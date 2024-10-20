@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 11 Thẻ list trong html -ul, ol</title>
+  </head>
+  <body>
+    <a href="../bài10-tìm-hiểu-thẻ-B-i-u/thehung.html">home</a>
+    <a href="../bài11-Thẻ-list-trong-html -ul-ol/thehung.html">bài 11</a>
+    <a href="../code-3-thẻ-hr-pr/thehung.html">bài 3</a>
+    <a href="../code-2/thehung.html">bài 2</a>
+    <!-- thẻ ul - unordered list : danh sách không có thứ tự -->
+    <!-- thẻ ol ordered list : danh sách có thứ tự -->
+    <!-- thẻ li - list item: lá thẻ con trực tiếp của ul, ol -->
+    <!--
+      Thẻ ul - unordered list: danh sách không có thứ tự sử dụng kết hợp các thẻ con để liệt kê danh sách vd:
+    -->
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+    <!--
+      Thẻ ol - ordered: danh sách có thứ tự sử dụng kết hợp với các thẻ con để liệt kê danh sách
+    -->
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+    <h1>Học emet</h1>
+    <img
+      src="./img/2024-10-16_130519.png"
+      alt="đây là hình học emet
+    ảnh"
+    />
+    <ul>
+      <li>item1</li>
+      <li>item2</li>
+      <li>item3</li>
+      <li>item4</li>
+      <li>item5</li>
+    </ul>
+    <!-- Bài 12: tìm hiểu thẻ a
+      - thre a: gắn liên kết email, phone
+      -href (hypertext reference) được dùng để khai báo URl mà trang web sẽ được chuyển đến
+      -VD: <a href= "http://tuhoc.cc" target="blank">click vào đây để tải trang chúng tôi
+    <a href="">tải lại trang</a>: nếu để trống thì tải lại trang
+    <a href="">trở lên trang đầu</a>: nếu value # thì trở lên trang đầu -->
+    <a href="https://translate.google.com" target="blank"
+      >click vào đây để tải trang web của chúng tôi</a
+    ><br />
+    <!-- Bài 12: tìm hiểu thẻ a
+      - thre a: gắn liên kết email, phone
+    - Thuộc tính "target" trong thẻ "a" được sử dụng chỉ định cách mở liên kết được nhúng trong thẻ đó-->
+    <!-- một số thuộc tính cơ bản của target
+    - <a href="http://tuhoc.cc" target=" self">Mở tài khoản hiện tại<?a><br>
+    - <a href="http://tuhoc.cc">Mở trang hiện tại</a><br>
+    - <a href="http://tuhoc.cc"> target="blank">Mở trong tab mới</a> -->
+    <!-- * liên kết tới số điện thoại: tel
+    - <a href="tel:012345678">012345678</a><br>
+    - <a href="tel:+8412345678">012345678</a><br>
+    - <a href="tel:012345678">Gọi cho e nhé</a>-->
+    <a href="tel:0965028081">Gọi cho anh nhé</a><br />
+    <!-- * liên kết tới email: Mailto
+    - <a href="mailto:tuhoc.cc@gmail.com">tuhoc.cc@gmail.com</a><br>
+    - <a href="mailto:tuhoc.cc@gmail.com">gửi email cho tôi</a> -->
+    <a href="mailto:uthungpt02081992@gmail.com">Gửi email cho tôi</a><br />
+    <!-- * 1 số tham số có thể trước cho: mailto
+    - cc: danh sách email sẽ nhận được bản sao của thư.
+    - bcc: danh sách email ẩn sẽ nhận được bản sao của thư.
+    - subject: chủ đề thư.
+    - body: nội dung của thư.
+    - ?: dấu phân cách giữa phần mailto và tham số.
+    - &: dấu phân cách tham số.
+  VD: <a href="mailto:quanly@doman.com?cc=admin@domain.com&subject=help me">send email</a>-->
+    <a
+      href="mailto:uthungpt02081992@gmail.com?cc=admin.com&subject=giúp tôi với&bcc:tuhoc.cc@gmail.com&body=giải bài này giúp tôi"
+      >Gửi gmail cho tôi</a
+    >
+  </body>
+</html>
